@@ -1,0 +1,33 @@
+Trader Behavior Insights – Assignment
+
+1. Objective
+  Analyze the relationship between Bitcoin market sentiment and trader performance to uncover actionable insights.
+
+2. Datasets
+  . Bitcoin Market Sentiment: Date, Classification (Fear/Greed)  
+  . Hyperliquid Trader Data: account, symbol, execution price, size, side, time, closedPnL, leverage, etc.
+
+3. Analysis & Visualizations
+(Embed screenshots of your plots from Colab)
+
+a)Total Trades by Market Sentiment
+- Extreme Fear → highest trades  
+- Fear / Neutral → moderate trades  
+- Greed / Extreme Greed → fewer trades
+
+b)Avg PnL per Trade
+- Extreme Greed → highest per-trade profit  
+- Extreme Fear → very low per-trade profit
+
+c)PnL per USD Traded
+- Extreme Greed → most capital-efficient  
+- Fear → high total PnL but low efficiency
+
+d) Risk-Adjusted PnL
+- Greed & Extreme Greed → most profitable and consistent  
+- Extreme Fear → highly volatile
+
+4. Professional Takeaways
+- Optimal trading occurs in **Greed / Extreme Greed markets**  
+- High activity in **Extreme Fear** markets is risky  
+- Insights can guide **capital-efficient and risk-adjusted trading strategies**
